@@ -1,7 +1,7 @@
 <template>
 	<view class="contact">
 		<image src="../static/img14.png" mode=""></image>
-		<text>联系一级代理获取兑换码</text>
+		<text>联系上级代理获取兑换码</text>
 	</view>
 </template>
 

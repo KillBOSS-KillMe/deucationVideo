@@ -7,7 +7,7 @@
 				<view class="meUserName">
 					<view><text>{{userInfo.nickname}}</text>
 					<uni-icons @tap='goMessage' class="iconfont iconxiaoxi" type=""></uni-icons></view>
-					<text v-if="userInfo.extension != 0">{{agentType}}级代理</text>
+					<text v-if="userInfo.extension != 0">茂喵喵代理</text>
 				</view>
 			</view>
 			<view class="meUserBottom">

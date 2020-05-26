@@ -1570,6 +1570,8 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 var requestUrl = 'https://mmm.beaconway.cn/api/';
 var imgUrl = 'https://mmm.beaconway.cn/uploads/';
 
+// const requestUrl = 'http://www.education.cc/api/';
+// const imgUrl = 'http://www.education.cc/uploads/';
 // 时间戳转时间
 var transformTime = new Date() || function () {
   if (timestamp) {

@@ -24,6 +24,7 @@
 				
 			</scroll-view>
 		</view>
+    <view class="notList" v-if="list.length == 0 && navList.length == 0">暂无数据</view>
 	</view>
 </template>
 
@@ -131,6 +132,18 @@
 <style lang="scss">
 page{
 	background-color: #FAF9F5;
+}
+.notList {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  color: #999;
 }
 .classfy{
 	width: 750rpx;

@@ -10,7 +10,9 @@
 		<!-- 轮播 -->
 		<swiper class="indexBanner" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" indicator-color="#FEBE9B" indicator-active-color="#FE9359">
 			<block v-for="(item, index) in bannerList" :key="index">
-				<swiper-item><image :src="imgUrl + item.url" mode=""></image></swiper-item>
+				<swiper-item>
+          <image :src="imgUrl + item.url" mode="" @tap="bannerClick" :data-goodsid="item.goods_id" :data-id="item.id" :data-type="item.type"></image>
+        </swiper-item>
 			</block>
 		</swiper>
 		<view class="nav">
@@ -42,11 +44,11 @@
 			</view>
 			<text class="more" @tap="getMore('recommend')">查看更多教程</text>
 		</view>
-		<!-- 畅销图书 -->
+		<!-- 精选图书 -->
 		<view class="sellData" v-if="bookList != ''">
 			<view class="recTitle">
-				<text class="recTitleL">畅销图书</text>
-				<text class="recTitleR">共有{{ bookCount }}本畅销图书</text>
+				<text class="recTitleL">精选图书</text>
+				<text class="recTitleR">共有{{ bookCount }}本精选图书</text>
 			</view>
 			<scroll-view class="scroll-list" scroll-x>
 				<block v-for="(item, index) in bookList" :key="index">
@@ -98,7 +100,7 @@ export default {
 	data() {
 		return {
 			recList: {},
-			navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '推荐图书', img: '/static/index2.png' }, { title: '畅销资料', img: '/static/index3.png' }],
+			navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '畅销资料', img: '/static/index3.png' }],
 			bannerList: [],
 			imgUrl: '',
 			userInfoButtonShow: true,
@@ -129,6 +131,29 @@ export default {
 		this.books();
 	},
 	methods: {
+    bannerClick(e) {
+      e = e.currentTarget.dataset
+      let id = e.id
+      let type = e.type
+      let goodId = e.goodsid
+      if (type == 1) { // 课程
+        uni.navigateTo({
+        	url: `/pages/indexCourse?id=${goodId}`
+        });
+      } else if (type == 2) { // 资料
+        uni.navigateTo({
+        	url: `/pages/indexDataDetail?type=${type}&id=${goodId}`
+        });
+      } else if (type == 3) { // 图书
+        uni.navigateTo({
+        	url: `/pages/indexDataDetail?type=${type}&id=${goodId}`
+        });
+      } else if (type == 4) { // 系统
+        uni.navigateTo({
+        	url: `/pages/message`
+        });
+      }
+    },
 		// 轮播
 		banner(callBack) {
 			uni.request({

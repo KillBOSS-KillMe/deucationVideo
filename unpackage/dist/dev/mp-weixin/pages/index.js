@@ -234,6 +234,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 var _helper = _interopRequireDefault(__webpack_require__(/*! ../componets/helper.js */ 12));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -325,13 +327,36 @@ var _helper = _interopRequireDefault(__webpack_require__(/*! ../componets/helper
 //
 //
 //
-var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 313));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate }, data: function data() {return { recList: {}, navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '推荐图书', img: '/static/index2.png' }, { title: '畅销资料', img: '/static/index3.png' }], bannerList: [], imgUrl: '', userInfoButtonShow: true, userInfo: {}, sellList: [], bookList: [], authorizationButton: null, dataCount: 0, bookCount: 0, curriculaCount: 0 };}, onLoad: function onLoad() {this.userInfo = app.globalData.userInfo;this.imgUrl = _helper.default.imgUrl;this.onGetUserInfo();uni.showShareMenu({ withShareTicket: true });}, onShow: function onShow() {this.banner(); // 课程推荐
+//
+//
+var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 313));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate }, data: function data() {return { recList: {}, navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '畅销资料', img: '/static/index3.png' }], bannerList: [], imgUrl: '', userInfoButtonShow: true, userInfo: {}, sellList: [], bookList: [], authorizationButton: null, dataCount: 0, bookCount: 0, curriculaCount: 0 };}, onLoad: function onLoad() {this.userInfo = app.globalData.userInfo;this.imgUrl = _helper.default.imgUrl;this.onGetUserInfo();uni.showShareMenu({ withShareTicket: true });}, onShow: function onShow() {this.banner(); // 课程推荐
     this.course(); //畅销资料
     this.sellData(); //畅销图书
-    this.books();}, methods: { // 轮播
+    this.books();}, methods: { bannerClick: function bannerClick(e) {e = e.currentTarget.dataset;var id = e.id;var type = e.type;var goodId = e.goodsid;if (type == 1) {// 课程
+        uni.navigateTo({ url: "/pages/indexCourse?id=".concat(goodId) });} else if (type == 2) {// 资料
+        uni.navigateTo({ url: "/pages/indexDataDetail?type=".concat(type, "&id=").concat(goodId) });} else if (type == 3) {// 图书
+        uni.navigateTo({ url: "/pages/indexDataDetail?type=".concat(type, "&id=").concat(goodId) });} else if (type == 4) {// 系统
+        uni.navigateTo({ url: "/pages/message" });}}, // 轮播
     banner: function banner(callBack) {var _this = this;uni.request({ url: "".concat(_helper.default.requestUrl, "index/getBanners"), method: 'GET', success: function success(res) {uni.hideLoading();res = _helper.default.null2str(res);console.log(res);if (res.data.status_code == 'ok') {_this.bannerList = res.data.data;} else {uni.showToast({ title: res.data.message, icon: 'none' });}} });}, // 导航
     getNav: function getNav(e) {if (e == '发现精彩') {uni.navigateTo({ url: "/pages/find" });} else {uni.navigateTo({ url: "/pages/indexAll?type=\u5BFC\u822A&mode=".concat(e) });}}, // 课程推荐
-    course: function course() {var _this2 = this;uni.showLoading({ title: '加载中...' });uni.request({ url: "".concat(_helper.default.requestUrl, "index/curriculum"), method: 'GET', data: { type: 'index' }, success: function success(res) {uni.hideLoading();res = _helper.default.null2str(res);console.log(res);if (res.data.status_code == 'ok') {_this2.recList = res.data.data;_this2.curriculaCount = res.data.count;} else {_this2.recList = [];}} });}, goRecList: function goRecList(e) {uni.navigateTo({ url: "/pages/indexCourse?id=".concat(e) });
+    course: function course() {var _this2 = this;uni.showLoading({ title: '加载中...' });uni.request({ url: "".concat(_helper.default.requestUrl, "index/curriculum"), method: 'GET', data: { type: 'index' },
+        success: function success(res) {
+          uni.hideLoading();
+          res = _helper.default.null2str(res);
+          console.log(res);
+          if (res.data.status_code == 'ok') {
+            _this2.recList = res.data.data;
+            _this2.curriculaCount = res.data.count;
+          } else {
+            _this2.recList = [];
+          }
+        } });
+
+    },
+    goRecList: function goRecList(e) {
+      uni.navigateTo({
+        url: "/pages/indexCourse?id=".concat(e) });
+
     },
     // 畅销资料
     sellData: function sellData() {var _this3 = this;

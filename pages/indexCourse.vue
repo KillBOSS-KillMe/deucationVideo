@@ -242,7 +242,13 @@ export default {
 		},
 
 
-	}
+	},
+  onShareAppMessage(res) {
+    return {
+      title: '茂喵喵知识书屋',
+      path: '/pages/index'
+    }
+  }
 };
 </script>
 

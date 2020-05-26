@@ -372,7 +372,16 @@ var app = getApp();var _default = { mixins: [_mescrollMixins.default], // 使用
           }
         } });
 
-    } } };exports.default = _default;
+    } },
+
+
+
+  onShareAppMessage: function onShareAppMessage(res) {
+    return {
+      title: '茂喵喵知识书屋',
+      path: '/pages/index' };
+
+  } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),

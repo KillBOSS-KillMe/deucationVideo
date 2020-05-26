@@ -5,6 +5,8 @@
 const requestUrl = 'https://mmm.beaconway.cn/api/';
 const imgUrl = 'https://mmm.beaconway.cn/uploads/';
 
+// const requestUrl = 'http://www.education.cc/api/';
+// const imgUrl = 'http://www.education.cc/uploads/';
 // 时间戳转时间
 const transformTime = new Date() || function() {
 	if (timestamp) {

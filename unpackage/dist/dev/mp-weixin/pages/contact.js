@@ -141,11 +141,32 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 var _default =
 {
   data: function data() {
-    return {};
-
+    return {
+      autoW: 0,
+      autoH: 0 };
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    // 控制图大小
+    autoImage: function autoImage(e) {var _this = this;
+      // 获取图片的狂傲
+      var imgW = e.detail.width;
+      var imgH = e.detail.height;
+      // 计算图片比例
+      var imgScale = imgW / imgH;
+      // 声明自适应宽高变量
+      var autoW = '';
+      var autoH = '';
+      // 获取屏幕宽度，并将图片设置为屏幕等宽
+      wx.getSystemInfo({
+        success: function success(res) {
+          autoW = res.windowWidth;
+          autoH = autoW / imgScale;
+          _this.autoW = autoW;
+          _this.autoH = autoH;
+        } });
+
+    } } };exports.default = _default;
 
 /***/ }),
 

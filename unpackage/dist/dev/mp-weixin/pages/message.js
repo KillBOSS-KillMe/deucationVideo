@@ -80,7 +80,7 @@ var _default =
         img: '../static/message.png' },
 
       {
-        title: '客服消息',
+        title: '下载链接获取',
         img: '../static/user.png' }] };
 
 
@@ -92,7 +92,7 @@ var _default =
       var urlNew = '';
       if (e == '系统消息') {
         urlNew = 'systemNotice';
-      } else if (e == '客服消息') {
+      } else if (e == '下载链接获取') {
         urlNew = 'service';
       }
       uni.navigateTo({

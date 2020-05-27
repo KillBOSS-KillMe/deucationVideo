@@ -130,51 +130,57 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var logoDom = function logoDom() {__webpack_require__.e(/*! require.ensure | componets/logoDom */ "componets/logoDom").then((function () {return resolve(__webpack_require__(/*! @/componets/logoDom.vue */ 326));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// logo
 var app = getApp();var _default =
 {
+  components: {
+    logoDom: logoDom },
+
   data: function data() {
     return {
       userInfo: {},
@@ -320,10 +326,7 @@ var app = getApp();var _default =
             url: "/pages/".concat(e, "?type=").concat(title) });
 
         }
-
       }
-
-
     },
     // 申请代理
     getAngent: function getAngent(e) {var _this4 = this;
@@ -347,7 +350,6 @@ var app = getApp();var _default =
               icon: 'none' });
 
           }
-
         } });
 
     },

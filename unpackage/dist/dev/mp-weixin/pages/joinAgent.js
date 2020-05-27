@@ -166,7 +166,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
-var app = getApp();var pickerAddress = function pickerAddress() {Promise.all(/*! require.ensure | componets/wangding-pickerAddress */[__webpack_require__.e("common/vendor"), __webpack_require__.e("componets/wangding-pickerAddress")]).then((function () {return resolve(__webpack_require__(/*! @/componets/wangding-pickerAddress.vue */ 326));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+var app = getApp();var pickerAddress = function pickerAddress() {Promise.all(/*! require.ensure | componets/wangding-pickerAddress */[__webpack_require__.e("common/vendor"), __webpack_require__.e("componets/wangding-pickerAddress")]).then((function () {return resolve(__webpack_require__(/*! @/componets/wangding-pickerAddress.vue */ 333));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 {
   components: {

@@ -9431,7 +9431,7 @@ module.exports = MpHtmlParser;
 
 /***/ }),
 
-/***/ 331:
+/***/ 338:
 /*!****************************************************!*\
   !*** D:/workspan/educationVideo/componets/data.js ***!
   \****************************************************/
@@ -14445,11 +14445,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 // const imgUrl = 'https://jinrong.beaconway.cn/uploads/';
 // 修改图片路径时候同时修改components中的qiyue-category图片路径
 
-// const requestUrl = 'https://mmm.beaconway.cn/api/';
-// const imgUrl = 'https://mmm.beaconway.cn/uploads/';
+var requestUrl = 'https://mmm.beaconway.cn/api/';
+var imgUrl = 'https://mmm.beaconway.cn/uploads/';
 
-var requestUrl = 'http://www.education.cc/api/';
-var imgUrl = 'http://www.education.cc/uploads/';
+// const requestUrl = 'http://www.education.cc/api/';
+// const imgUrl = 'http://www.education.cc/uploads/';
 // 时间戳转时间
 var transformTime = new Date() || function () {
   if (timestamp) {

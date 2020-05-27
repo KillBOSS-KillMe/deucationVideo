@@ -87,16 +87,18 @@
 			</scroll-view>
 			<text class="more" @tap="getMore('sellData')">查看更多资料</text>
 		</view>
+    <logoDom />
 		<button open-type="getUserInfo" id="getUserInfo" v-if="userInfoButtonShow" lang="zh_CN" @getuserinfo="onGetUserInfo"></button>
 	</view>
 </template>
 
 <script>
 const app = getApp();
+import logoDom from '@/componets/logoDom.vue'; // logo
 import helper from '../componets/helper.js';
 import uniRate from '@/componets/wyc-rate/uni-rate.vue';
 export default {
-	components: { uniRate },
+	components: { uniRate, logoDom },
 	data() {
 		return {
 			recList: {},

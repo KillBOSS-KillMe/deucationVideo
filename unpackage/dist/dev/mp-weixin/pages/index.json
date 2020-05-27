@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "茂喵喵知识书屋",
   "usingComponents": {
-    "uni-rate": "/componets/wyc-rate/uni-rate"
+    "uni-rate": "/componets/wyc-rate/uni-rate",
+    "logo-dom": "/componets/logoDom"
   }
 }

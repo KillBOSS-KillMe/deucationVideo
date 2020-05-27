@@ -2,11 +2,11 @@
 // const imgUrl = 'https://jinrong.beaconway.cn/uploads/';
 // 修改图片路径时候同时修改components中的qiyue-category图片路径
 
-// const requestUrl = 'https://mmm.beaconway.cn/api/';
-// const imgUrl = 'https://mmm.beaconway.cn/uploads/';
+const requestUrl = 'https://mmm.beaconway.cn/api/';
+const imgUrl = 'https://mmm.beaconway.cn/uploads/';
 
-const requestUrl = 'http://www.education.cc/api/';
-const imgUrl = 'http://www.education.cc/uploads/';
+// const requestUrl = 'http://www.education.cc/api/';
+// const imgUrl = 'http://www.education.cc/uploads/';
 // 时间戳转时间
 const transformTime = new Date() || function() {
 	if (timestamp) {

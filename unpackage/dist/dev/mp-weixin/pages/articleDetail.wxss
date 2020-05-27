@@ -41,12 +41,12 @@
           align-items: center;
 }
 .head text {
-    color: #999999;
-    font-size: 24rpx;
+  color: #999999;
+  font-size: 24rpx;
 }
 .head .title {
-    color: #343434;
-    font-size: 32rpx;
+  color: #343434;
+  font-size: 32rpx;
 }
 .content {
   width: 690rpx;
@@ -58,8 +58,10 @@ uni-button:after {
   transform: none;
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
-  box-sizing: border-box;
-  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
 }
 .post {
   width: 690rpx;
@@ -79,15 +81,16 @@ uni-button:after {
   height: 110rpx;
 }
 .post input {
-    width: 580rpx;
-    height: 70rpx;
-    border: 1rpx solid #C0C0C0;
-    border-radius: 40rpx;
+  width: 580rpx;
+  height: 70rpx;
+  border: 1rpx solid #C0C0C0;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
 }
 .post text {
-    color: #898989;
-    font-size: 32rpx;
-    display: block;
-    margin-right: 10rpx;
+  color: #898989;
+  font-size: 32rpx;
+  display: block;
+  margin-right: 10rpx;
 }
 

@@ -38,7 +38,8 @@ page {
 }
 .find .list {
   width: 340rpx;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   background-color: #FFFFFF;
   -webkit-column-break-inside: avoid;
           break-inside: avoid;
@@ -47,7 +48,7 @@ page {
   padding-bottom: 20rpx;
 }
 .find .list > image {
-    width: 340rpx;
+  width: 340rpx;
 }
 .find .left {
   padding-top: 4rpx;
@@ -101,7 +102,8 @@ page {
 .find .findB .findBL > image {
   width: 36rpx;
   height: 36rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .find .findB .findBL > text {
   color: #666666;

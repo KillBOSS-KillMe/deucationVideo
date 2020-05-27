@@ -28,10 +28,10 @@
   width: 750rpx;
 }
 .contact text {
-    display: block;
-    margin: 20rpx auto;
-    color: #343434;
-    font-size: 30rpx;
-    text-align: center;
+  display: block;
+  margin: 20rpx auto;
+  color: #343434;
+  font-size: 30rpx;
+  text-align: center;
 }
 

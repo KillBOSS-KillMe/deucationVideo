@@ -32,132 +32,135 @@
   padding: 30rpx 30rpx 0;
 }
 .head .headItem {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    color: #343434;
-    font-size: 28rpx;
-    font-weight: 600;
-    margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #343434;
+  font-size: 28rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
 }
 .head .headItem .right {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-              align-items: center;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-              justify-content: space-between;
-      width: 540rpx;
-      border: 1rpx solid #dddddd;
-      border-radius: 10rpx;
-      height: 70rpx;
-      padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 540rpx;
+  border: 1rpx solid #dddddd;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  height: 70rpx;
+  padding: 0 30rpx;
 }
 .head .headItem .right .iconfont {
-        font-size: 20rpx;
-        color: #999999;
+  font-size: 20rpx;
+  color: #999999;
 }
 .head .headItem .right view {
-        font-size: 28rpx;
-        color: #999999;
-        font-weight: 600;
+  font-size: 28rpx;
+  color: #999999;
+  font-weight: 600;
 }
 .content {
   width: 690rpx;
   padding: 30rpx 30rpx 30rpx;
 }
 .content .item {
-    width: 690rpx;
-    height: 170rpx;
-    margin-bottom: 30rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
+  width: 690rpx;
+  height: 170rpx;
+  margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
 }
 .content .item .right {
-      width: 240rpx;
-      height: 170rpx;
-      background-color: #fecf59;
-      border-radius: 20rpx 0 0 20rpx;
-      /* 相对定位，方便让before和after伪元素绝对定位偏移 */
-      position: relative;
-      /* 把超出div的部分隐藏起来 */
-      overflow: hidden;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-              justify-content: center;
-      -webkit-align-content: center;
-              align-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-              align-items: center;
-      -webkit-flex-wrap: wrap;
-              flex-wrap: wrap;
+  width: 240rpx;
+  height: 170rpx;
+  background-color: #fecf59;
+  -webkit-border-radius: 20rpx 0 0 20rpx;
+          border-radius: 20rpx 0 0 20rpx;
+  /* 相对定位，方便让before和after伪元素绝对定位偏移 */
+  position: relative;
+  /* 把超出div的部分隐藏起来 */
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-content: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .content .item .right .iconfont {
-        color: #ffffff;
-        font-size: 62rpx;
-        margin-bottom: 10rpx;
+  color: #ffffff;
+  font-size: 62rpx;
+  margin-bottom: 10rpx;
 }
 .content .item .right text {
-        color: #ffffff;
-        font-size: 22rpx;
-        text-align: center;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-        display: block;
-        width: 100%;
+  color: #ffffff;
+  font-size: 22rpx;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  width: 100%;
 }
 .content .item .left {
-      width: 401rpx;
-      background-color: #ffffff;
-      padding: 0 24rpx;
-      height: 170rpx;
-      border-radius: 0 20rpx 20rpx 0;
+  width: 401rpx;
+  background-color: #ffffff;
+  padding: 0 24rpx;
+  height: 170rpx;
+  -webkit-border-radius: 0 20rpx 20rpx 0;
+          border-radius: 0 20rpx 20rpx 0;
 }
 .content .item .left .leftT {
-        width: 100%;
-        position: relative;
-        padding: 10rpx 0 26rpx;
+  width: 100%;
+  position: relative;
+  padding: 10rpx 0 26rpx;
 }
 .content .item .left .leftT text {
-          color: #343434;
-          font-size: 30rpx;
-          margin: 20rpx 0;
-          display: block;
+  color: #343434;
+  font-size: 30rpx;
+  margin: 20rpx 0;
+  display: block;
 }
 .content .item .left .leftB {
-        height: 54rpx;
-        border-top: 1rpx dashed #dddddd;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-                justify-content: space-between;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-                align-items: center;
+  height: 54rpx;
+  border-top: 1rpx dashed #dddddd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
 .content .item .left .leftB text {
-          color: #999999;
-          font-size: 22rpx;
+  color: #999999;
+  font-size: 22rpx;
 }
 .content .item .left .leftB .goUse {
-          color: #fe9359;
+  color: #fe9359;
 }
 .right:after {
   content: ' ';
@@ -175,56 +178,58 @@
   padding: 30rpx;
 }
 .tel .item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    color: #343434;
-    font-size: 28rpx;
-    font-weight: 600;
-    margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: #343434;
+  font-size: 28rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
 }
 .tel .item .count {
-      width: 400rpx;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      color: #999999;
-      font-size: 28rpx;
+  width: 400rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999999;
+  font-size: 28rpx;
 }
 .tel .item text {
-      width: 550rpx;
-      height: 70rpx;
-      line-height: 70rpx;
-      display: block;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      color: #999999;
-      font-size: 28rpx;
+  width: 550rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999999;
+  font-size: 28rpx;
 }
 .tel .item input {
-      width: 510rpx;
-      border: 1rpx solid #dddddd;
-      border-radius: 10rpx;
-      padding: 2rpx 20rpx;
-      height: 70rpx;
+  width: 510rpx;
+  border: 1rpx solid #dddddd;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  padding: 2rpx 20rpx;
+  height: 70rpx;
 }
 .tel .item .inputClass {
-      color: #999;
-      font-size: 28rpx;
-      font-weight: 600;
+  color: #999;
+  font-size: 28rpx;
+  font-weight: 600;
 }
 .submint {
   font-size: 28rpx;
   color: #ffffff;
   background-color: #fe9359;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
   height: 80rpx;
   font-weight: 600;
   width: 680rpx;

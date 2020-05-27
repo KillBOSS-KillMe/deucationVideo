@@ -28,62 +28,62 @@
   width: 750rpx;
 }
 .indexCourse .video {
-    width: 100%;
-    height: 350rpx;
+  width: 100%;
+  height: 350rpx;
 }
 .indexCourse .video video,
-    .indexCourse .video image {
-      width: 100%;
-      height: 100%;
+.indexCourse .video image {
+  width: 100%;
+  height: 100%;
 }
 .detail {
   width: 690rpx;
   padding: 30rpx;
 }
 .detail text {
-    display: block;
-    color: #999999;
-    font-size: 22rpx;
-    margin-bottom: 16rpx;
+  display: block;
+  color: #999999;
+  font-size: 22rpx;
+  margin-bottom: 16rpx;
 }
 .detail .detailTitle {
-    color: #343434;
-    font-size: 30rpx;
-    display: -webkit-box;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+  color: #343434;
+  font-size: 30rpx;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .course {
   width: 750rpx;
   padding-bottom: 100rpx;
 }
 .course .head {
-    width: 750rpx;
-    padding: 30rpx 0 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-around;
-            justify-content: space-around;
+  width: 750rpx;
+  padding: 30rpx 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
 }
 .course .head > view {
-      color: #343434;
-      font-size: 30rpx;
-      height: 60rpx;
-      font-weight: 600;
+  color: #343434;
+  font-size: 30rpx;
+  height: 60rpx;
+  font-weight: 600;
 }
 .course .head .cur {
-      color: #fe9359;
+  color: #fe9359;
 }
 .course .imgList {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 .course .imgList image {
-      width: 100%;
-      height: auto;
+  width: 100%;
+  height: auto;
 }
 .cur::after {
   content: '';
@@ -92,105 +92,108 @@
   background-color: #fe9359;
   display: block;
   margin: 10rpx auto 0;
-  border-radius: 6rpx;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
 }
 .contList {
   width: 690rpx;
   padding: 30rpx;
 }
 .contList .item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 30rpx;
 }
 .contList .item > text {
-      color: #999999;
-      font-size: 24rpx;
+  color: #999999;
+  font-size: 24rpx;
 }
 .contList .item > view {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-              align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
 .contList .item > view text {
-        color: #666666;
-        font-size: 20rpx;
-        border: 1rpx solid #dddddd;
-        border-radius: 6rpx;
-        padding: 1rpx 6rpx;
+  color: #666666;
+  font-size: 20rpx;
+  border: 1rpx solid #dddddd;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
+  padding: 1rpx 6rpx;
 }
 .contList .item > view view {
-        color: #343434;
-        font-size: 28rpx;
-        width: 510rpx;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        margin-left: 10rpx;
-        font-weight: 600;
+  color: #343434;
+  font-size: 28rpx;
+  width: 510rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 10rpx;
+  font-weight: 600;
 }
 .comment {
   width: 750rpx;
   padding-bottom: 110rpx;
 }
 .comment .item {
-    width: 690rpx;
-    padding: 30rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-            align-items: flex-start;
+  width: 690rpx;
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
 }
 .comment .item > image {
-      width: 66rpx;
-      height: 66rpx;
-      border-radius: 66rpx;
-      margin-right: 26rpx;
+  width: 66rpx;
+  height: 66rpx;
+  -webkit-border-radius: 66rpx;
+          border-radius: 66rpx;
+  margin-right: 26rpx;
 }
 .comment .item .right {
-      width: 600rpx;
+  width: 600rpx;
 }
 .comment .item .right text {
-        display: block;
+  display: block;
 }
 .comment .item .right .courseComment {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-                justify-content: space-between;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-                align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
 .comment .item .right .name {
-        color: #565656;
-        font-size: 28rpx;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+  color: #565656;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .comment .item .right .content {
-        color: #898989;
-        font-size: 26rpx;
-        margin: 16rpx 0;
+  color: #898989;
+  font-size: 26rpx;
+  margin: 16rpx 0;
 }
 .comment .item .right .time {
-        color: #999999;
-        font-size: 22rpx;
+  color: #999999;
+  font-size: 22rpx;
 }
 .buy {
   width: 550rpx;
@@ -209,43 +212,45 @@
   margin-left: -376rpx;
 }
 .buy button {
-    width: 230rpx;
-    font-size: 24rpx;
-    border-radius: 34rpx;
-    height: 62rpx;
-    line-height: 62rpx;
-    text-align: center;
+  width: 230rpx;
+  font-size: 24rpx;
+  -webkit-border-radius: 34rpx;
+          border-radius: 34rpx;
+  height: 62rpx;
+  line-height: 62rpx;
+  text-align: center;
 }
 .buy .buyCourse {
-    background-color: #fe9359;
-    color: #ffffff;
+  background-color: #fe9359;
+  color: #ffffff;
 }
 .buy .buyConvert {
-    border: 1rpx solid #fe9359;
-    color: #fe9359;
+  border: 1rpx solid #fe9359;
+  color: #fe9359;
 }
 .contact {
   width: 120rpx;
   height: 120rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   position: fixed;
   z-index: 99;
   right: -12rpx;
   bottom: 22vh;
 }
 .contact image {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .contact button {
-    background: transparent !important;
-    width: 120rpx;
-    height: 120rpx;
-    border: none !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0;
+  background: transparent !important;
+  width: 120rpx;
+  height: 120rpx;
+  border: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
 }
 button::after {
   border: none;

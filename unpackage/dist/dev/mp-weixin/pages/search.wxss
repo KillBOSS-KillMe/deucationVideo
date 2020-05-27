@@ -33,72 +33,75 @@
   background-color: #efcf5e;
 }
 .searchInput view {
-    width: 630rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    background-color: #fff;
-    border-radius: 30rpx;
-    height: 60rpx;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    padding: 0 30rpx;
+  width: 630rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #fff;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  height: 60rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 30rpx;
 }
 .searchInput view .iconfont {
-      font-size: 30rpx;
-      margin-right: 20rpx;
-      color: #dcdcdc;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+  color: #dcdcdc;
 }
 .searchInput view .searchTip {
-      color: #cdcdcd;
-      font-size: 26rpx;
+  color: #cdcdcd;
+  font-size: 26rpx;
 }
 .searchInput input {
-    width: 100%;
-    border-radius: 30rpx;
+  width: 100%;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
 }
 .history {
   width: 690rpx;
   padding: 30rpx;
 }
 .history .head {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    margin-bottom: 18rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 18rpx;
 }
 .history .head image {
-      width: 26rpx;
-      height: 26rpx;
+  width: 26rpx;
+  height: 26rpx;
 }
 .history .head text {
-      color: #343434;
-      font-size: 28rpx;
+  color: #343434;
+  font-size: 28rpx;
 }
 .history .historyList {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-            flex-wrap: wrap;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .history .historyList text {
-      display: block;
-      border: 1rpx solid #dddddd;
-      color: #666666;
-      font-size: 22rpx;
-      padding: 6rpx 16rpx;
-      border-radius: 20rpx;
-      margin: 0 16rpx 16rpx 0;
+  display: block;
+  border: 1rpx solid #dddddd;
+  color: #666666;
+  font-size: 22rpx;
+  padding: 6rpx 16rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin: 0 16rpx 16rpx 0;
 }
 .classfyDetail {
   width: 690rpx;
@@ -114,31 +117,31 @@
           flex-wrap: wrap;
 }
 .classfyDetail .item .teach {
-    color: #343434;
-    font-weight: 600;
-    font-size: 28rpx;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 10rpx 0;
+  color: #343434;
+  font-weight: 600;
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10rpx 0;
 }
 .classfyDetail .item .price {
-    color: #ff1d00;
-    font-weight: 600;
-    font-size: 24rpx;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 10rpx 0;
+  color: #ff1d00;
+  font-weight: 600;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10rpx 0;
 }
 .classfyDetail .item .star {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
 }
 .classfyDetail .item .star image {
-    width: 14rpx;
-    height: 14rpx;
+  width: 14rpx;
+  height: 14rpx;
 }
 .classfyDetail .item {
   width: 330rpx;
@@ -151,7 +154,8 @@
 .classfyDetail .item > image {
   width: 330rpx;
   height: 180rpx;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
 }
 .null {
   text-align: center;

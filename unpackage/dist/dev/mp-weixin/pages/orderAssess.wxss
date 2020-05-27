@@ -42,25 +42,26 @@ page {
           align-items: center;
 }
 .order image {
-    width: 112rpx;
-    height: 94rpx;
-    border-radius: 6rpx;
+  width: 112rpx;
+  height: 94rpx;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
 }
 .order .right {
-    width: 550rpx;
+  width: 550rpx;
 }
 .order .right .title {
-      color: #343434;
-      font-size: 28rpx;
-      margin-bottom: 6rpx;
+  color: #343434;
+  font-size: 28rpx;
+  margin-bottom: 6rpx;
 }
 .order .right text {
-      display: block;
-      font-size: 24rpx;
-      color: #999999;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+  display: block;
+  font-size: 24rpx;
+  color: #999999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .star {
   width: 690rpx;
@@ -74,9 +75,9 @@ page {
           align-items: center;
 }
 .star text {
-    color: #343434;
-    font-size: 28rpx;
-    margin-right: 18rpx;
+  color: #343434;
+  font-size: 28rpx;
+  margin-right: 18rpx;
 }
 .content {
   width: 750rpx;
@@ -85,30 +86,31 @@ page {
   margin: 10rpx 0;
 }
 .content textarea {
-    width: 690rpx;
-    padding: 20rpx 30rpx 0;
-    color: #545454;
-    font-size: 26rpx;
-    font-weight: 600;
-    height: 200rpx;
+  width: 690rpx;
+  padding: 20rpx 30rpx 0;
+  color: #545454;
+  font-size: 26rpx;
+  font-weight: 600;
+  height: 200rpx;
 }
 .content text {
-    color: #545454;
-    font-size: 28rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    margin-right: 30rpx;
+  color: #545454;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-right: 30rpx;
 }
 .button {
   width: 690rpx;
   margin: 100rpx auto 0;
   background-color: #fe9359;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
   font-size: 28rpx;
   color: #ffffff;
   border: none;

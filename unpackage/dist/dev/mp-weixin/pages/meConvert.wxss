@@ -38,7 +38,8 @@
   -webkit-align-items: center;
           align-items: center;
   border-bottom: 2rpx solid #DDDDDD;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: flex;
   -webkit-justify-content: space-around;
           justify-content: space-around;
@@ -57,10 +58,10 @@
           align-items: center;
 }
 .navName .iconfont {
-    font-size: 18rpx;
-    display: block;
-    color: #bbb8bb;
-    margin-left: 16rpx;
+  font-size: 18rpx;
+  display: block;
+  color: #bbb8bb;
+  margin-left: 16rpx;
 }
 .inv-h-se > text,
 .inv-h-se .iconfont {
@@ -89,103 +90,105 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .navList .itemBox {
-    width: 690rpx;
-    background-color: #ffffff;
-    padding: 0 30rpx 20rpx;
+  width: 690rpx;
+  background-color: #ffffff;
+  padding: 0 30rpx 20rpx;
 }
 .navList .itemBox text {
-      display: block;
-      color: #343434;
-      font-size: 28rpx;
-      padding: 20rpx 0 0 0;
+  display: block;
+  color: #343434;
+  font-size: 28rpx;
+  padding: 20rpx 0 0 0;
 }
 .content {
   width: 690rpx;
   padding: 30rpx 30rpx 100rpx;
 }
 .content .item {
-    width: 690rpx;
-    height: 170rpx;
-    margin-bottom: 30rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
+  width: 690rpx;
+  height: 170rpx;
+  margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
 }
 .content .item .right {
-      width: 240rpx;
-      height: 170rpx;
-      background-color: #fecf59;
-      border-radius: 20rpx 0 0 20rpx;
-      /* 相对定位，方便让before和after伪元素绝对定位偏移 */
-      position: relative;
-      /* 把超出div的部分隐藏起来 */
-      overflow: hidden;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-              justify-content: center;
-      -webkit-align-content: center;
-              align-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-              align-items: center;
-      -webkit-flex-wrap: wrap;
-              flex-wrap: wrap;
+  width: 240rpx;
+  height: 170rpx;
+  background-color: #fecf59;
+  -webkit-border-radius: 20rpx 0 0 20rpx;
+          border-radius: 20rpx 0 0 20rpx;
+  /* 相对定位，方便让before和after伪元素绝对定位偏移 */
+  position: relative;
+  /* 把超出div的部分隐藏起来 */
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-content: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .content .item .right .iconfont {
-        color: #ffffff;
-        font-size: 62rpx;
-        margin-bottom: 10rpx;
+  color: #ffffff;
+  font-size: 62rpx;
+  margin-bottom: 10rpx;
 }
 .content .item .right text {
-        color: #ffffff;
-        font-size: 22rpx;
-        text-align: center;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-        display: block;
-        width: 100%;
+  color: #ffffff;
+  font-size: 22rpx;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  width: 100%;
 }
 .content .item .left {
-      width: 401rpx;
-      background-color: #ffffff;
-      padding: 0 24rpx;
-      height: 170rpx;
-      border-radius: 0 20rpx 20rpx 0;
+  width: 401rpx;
+  background-color: #ffffff;
+  padding: 0 24rpx;
+  height: 170rpx;
+  -webkit-border-radius: 0 20rpx 20rpx 0;
+          border-radius: 0 20rpx 20rpx 0;
 }
 .content .item .left .leftT {
-        width: 100%;
-        position: relative;
-        padding: 10rpx 0 26rpx;
+  width: 100%;
+  position: relative;
+  padding: 10rpx 0 26rpx;
 }
 .content .item .left .leftT text {
-          color: #343434;
-          font-size: 30rpx;
-          margin: 20rpx 0;
-          display: block;
+  color: #343434;
+  font-size: 30rpx;
+  margin: 20rpx 0;
+  display: block;
 }
 .content .item .left .leftB {
-        height: 54rpx;
-        border-top: 1rpx dashed #dddddd;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-                justify-content: space-between;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-                align-items: center;
+  height: 54rpx;
+  border-top: 1rpx dashed #dddddd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
 .content .item .left .leftB text {
-          color: #999999;
-          font-size: 22rpx;
+  color: #999999;
+  font-size: 22rpx;
 }
 .content .item .left .leftB .goUse {
-          color: #fe9359;
+  color: #fe9359;
 }
 .right:after {
   content: ' ';
@@ -217,16 +220,17 @@
           align-items: center;
 }
 .bottom button {
-    width: 300rpx;
-    color: #fff;
-    background-color: #ef9359;
-    height: 68rpx;
-    border-radius: 34rpx;
-    font-size: 28rpx;
+  width: 300rpx;
+  color: #fff;
+  background-color: #ef9359;
+  height: 68rpx;
+  -webkit-border-radius: 34rpx;
+          border-radius: 34rpx;
+  font-size: 28rpx;
 }
 .bottom .more {
-    background-color: #fff;
-    color: #ef9359;
-    border: 1rpx solid #ef9359;
+  background-color: #fff;
+  color: #ef9359;
+  border: 1rpx solid #ef9359;
 }
 

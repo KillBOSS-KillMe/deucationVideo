@@ -44,32 +44,33 @@ page {
   background-color: #FFFFFF;
 }
 .shop image {
-    width: 152rpx;
-    height: 106rpx;
-    border-radius: 8rpx;
-    margin-right: 24rpx;
+  width: 152rpx;
+  height: 106rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
+  margin-right: 24rpx;
 }
 .shop .left {
-    width: 505rpx;
+  width: 505rpx;
 }
 .shop .left text {
-      display: block;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .shop .left .title {
-      color: #343434;
-      font-size: 28rpx;
+  color: #343434;
+  font-size: 28rpx;
 }
 .shop .left .type {
-      color: #999999;
-      font-size: 24rpx;
-      margin: 6rpx 0;
+  color: #999999;
+  font-size: 24rpx;
+  margin: 6rpx 0;
 }
 .shop .left .price {
-      color: #FF1D00;
-      font-size: 22rpx;
+  color: #FF1D00;
+  font-size: 22rpx;
 }
 .item {
   margin-top: 18rpx;
@@ -87,12 +88,13 @@ page {
   background-color: #FFFFFF;
 }
 .item .iconfont {
-    color: #999999;
+  color: #999999;
 }
 .submint {
   width: 670rpx;
   height: 80rpx;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
   border: none;
   background-color: #FE9359 !important;
   line-height: 80rpx;

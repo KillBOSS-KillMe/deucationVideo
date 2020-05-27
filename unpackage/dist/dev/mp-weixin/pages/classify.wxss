@@ -93,7 +93,8 @@ scroll-view {
 .content .banner {
   width: 504rpx;
   height: 160rpx;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .content .list {
   padding: 30rpx 0;
@@ -111,17 +112,18 @@ scroll-view {
   width: 240rpx;
 }
 .content .list .item text {
-    color: #343434;
-    font-size: 28rpx;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    display: block;
+  color: #343434;
+  font-size: 28rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
 }
 .content .list .item image {
-    width: 240rpx;
-    height: 148rpx;
-    border-radius: 10rpx;
+  width: 240rpx;
+  height: 148rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .content .list .item:nth-of-type(2n) {
   margin-right: 0;
@@ -145,7 +147,8 @@ scroll-view {
   display: block;
   margin: 26rpx 20rpx 0 0;
   border: 1rpx solid #DDDDDD;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   padding: 4rpx 26rpx;
 }
 .content .itemName > text:nth-of-type(4n) {

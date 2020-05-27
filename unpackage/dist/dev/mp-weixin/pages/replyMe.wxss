@@ -29,26 +29,26 @@
   padding: 0 30rpx;
 }
 .replyMe .item {
-    width: 690rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    border-bottom: 1rpx solid #DDDDDD;
-    padding: 30rpx 0;
+  width: 690rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1rpx solid #DDDDDD;
+  padding: 30rpx 0;
 }
 .replyMe .item text {
-      color: #999999;
-      font-size: 24rpx;
+  color: #999999;
+  font-size: 24rpx;
 }
 .replyMe .item .reply {
-      color: #343434;
-      font-size: 28rpx;
-      width: 580rpx;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+  color: #343434;
+  font-size: 28rpx;
+  width: 580rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 

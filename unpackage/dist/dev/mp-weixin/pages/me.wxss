@@ -39,7 +39,8 @@ page {
   width: 650rpx;
   height: 184rpx;
   background-color: #FFFFFF;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   margin: -130rpx auto 0;
   padding: 20rpx;
 }
@@ -51,7 +52,8 @@ page {
 .me .meUserTop > image {
   width: 80rpx;
   height: 80rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   overflow: hidden;
   margin-right: 20rpx;
 }
@@ -73,17 +75,17 @@ page {
           align-content: center;
 }
 .me .meUserTop .meUserName > view {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
 }
 .me .meUserTop .meUserName .iconfont {
-    font-size: 60rpx;
-    color: #FE9359;
+  font-size: 60rpx;
+  color: #FE9359;
 }
 .me .meUserTop .meUserName > text {
   display: block;

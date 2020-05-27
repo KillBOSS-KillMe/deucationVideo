@@ -67,13 +67,14 @@ export default {
 		// 判断是更多进入还是导航
 		this.type = option.type;
 		this.mode = option.mode
+    
 		if (this.mode == 'sellData') {
 			// 畅销资料
 			this.url = 'index/data'
 			navTitle = '畅销资料'
 			// this.getSellData();
-		} else if (this.mode == 'books') {
-			navTitle = '精选图书'
+		} else if (this.mode == '绘本图书') {
+			navTitle = '绘本图书'
 			this.url = 'index/book'
 		}else if(this.mode == '畅销资料'){
 			navTitle = '全部资料'
@@ -86,7 +87,7 @@ export default {
 			if(this.mode == '畅销资料'){
 				navUrl = 'class/data_classify'
 				this.listUrl = 'class/getDataList'
-			}else if(this.mode == '推荐图书'){
+			}else if(this.mode == '绘本图书'){
 				navUrl = 'class/book_classify'
 				this.listUrl = 'class/getBookList'
 			}

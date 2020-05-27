@@ -31,7 +31,8 @@
 .item {
   width: 650rpx;
   border: 1rpx solid #DDDDDD;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -43,16 +44,16 @@
   margin-bottom: 30rpx;
 }
 .item label {
-    font-size: 28rpx;
-    color: #666666;
-    border-right: 1rpx solid #DDDDDD;
-    padding-right: 20rpx;
+  font-size: 28rpx;
+  color: #666666;
+  border-right: 1rpx solid #DDDDDD;
+  padding-right: 20rpx;
 }
 .item input {
-    color: #BBBBBB;
-    font-size: 28rpx;
-    padding-left: 20rpx;
-    width: 550rpx;
+  color: #BBBBBB;
+  font-size: 28rpx;
+  padding-left: 20rpx;
+  width: 550rpx;
 }
 .itemCode {
   width: 690rpx;
@@ -69,23 +70,25 @@
   margin-bottom: 30rpx;
 }
 .itemCode input {
-    height: 80rpx;
-    width: 400rpx;
-    border: 1rpx solid #DDDDDD;
-    border-radius: 10rpx;
-    padding: 0 20rpx;
-    color: #BBBBBB;
-    font-size: 28rpx;
+  height: 80rpx;
+  width: 400rpx;
+  border: 1rpx solid #DDDDDD;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  padding: 0 20rpx;
+  color: #BBBBBB;
+  font-size: 28rpx;
 }
 .itemCode .getCode {
-    width: 200rpx;
-    background-color: #FE9359;
-    color: #FFFFFF;
-    font-size: 28rpx;
-    height: 80rpx;
-    line-height: 80rpx;
-    text-align: center;
-    border-radius: 10rpx;
+  width: 200rpx;
+  background-color: #FE9359;
+  color: #FFFFFF;
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .tip {
   color: #BBBBBB;
@@ -108,7 +111,8 @@
   -webkit-box-pack: center;
   -webkit-justify-content: center;
           justify-content: center;
-  border-radius: 30rpx;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
   margin-top: 100rpx;
 }
 

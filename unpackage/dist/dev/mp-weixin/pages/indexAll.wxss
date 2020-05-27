@@ -42,18 +42,18 @@
   background-color: #ffffff;
 }
 .head .scroll-list {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 .head .scroll-list view {
-      color: #343434;
-      font-size: 30rpx;
-      height: 60rpx;
-      font-weight: 600;
-      display: inline-block;
-      margin-right: 80rpx;
+  color: #343434;
+  font-size: 30rpx;
+  height: 60rpx;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 80rpx;
 }
 .head .scroll-list .cur {
-      color: #fe9359;
+  color: #fe9359;
 }
 .cur::after {
   content: '';
@@ -62,7 +62,8 @@
   background-color: #fe9359;
   display: block;
   margin: 10rpx auto 0;
-  border-radius: 6rpx;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
 }
 .indexAllList {
   width: 690rpx;
@@ -78,31 +79,31 @@
           flex-wrap: wrap;
 }
 .indexAllList .item .teach {
-    color: #343434;
-    font-weight: 600;
-    font-size: 28rpx;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 10rpx 0;
+  color: #343434;
+  font-weight: 600;
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10rpx 0;
 }
 .indexAllList .item .price {
-    color: #ff1d00;
-    font-weight: 600;
-    font-size: 24rpx;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 10rpx 0;
+  color: #ff1d00;
+  font-weight: 600;
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10rpx 0;
 }
 .indexAllList .item .star {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
 }
 .indexAllList .item .star image {
-    width: 14rpx;
-    height: 14rpx;
+  width: 14rpx;
+  height: 14rpx;
 }
 .indexAllList .item {
   width: 330rpx;
@@ -115,6 +116,7 @@
 .indexAllList .item > image {
   width: 330rpx;
   height: 180rpx;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
 }
 

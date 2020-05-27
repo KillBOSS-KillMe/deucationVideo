@@ -44,11 +44,11 @@
 			</view>
 			<text class="more" @tap="getMore('recommend')">查看更多教程</text>
 		</view>
-		<!-- 精选图书 -->
+		<!-- 推荐图书 -->
 		<view class="sellData" v-if="bookList != ''">
 			<view class="recTitle">
-				<text class="recTitleL">精选图书</text>
-				<text class="recTitleR">共有{{ bookCount }}本精选图书</text>
+				<text class="recTitleL">推荐图书</text>
+				<text class="recTitleR">共有{{ bookCount }}本推荐图书</text>
 			</view>
 			<scroll-view class="scroll-list" scroll-x>
 				<block v-for="(item, index) in bookList" :key="index">
@@ -67,11 +67,11 @@
 			</scroll-view>
 			<text class="more" @tap="getMore('books')">查看更多图书</text>
 		</view>
-		<!-- 畅销资料 -->
+		<!-- 精选资料 -->
 		<view class="sellData" v-if="sellList != ''">
 			<view class="recTitle">
-				<text class="recTitleL">畅销资料</text>
-				<text class="recTitleR">共有{{ dataCount }}册畅销资料</text>
+				<text class="recTitleL">精选资料</text>
+				<text class="recTitleR">共有{{ dataCount }}册精选资料</text>
 			</view>
 			<scroll-view class="scroll-list" scroll-x>
 				<block v-for="(item, index) in sellList" :key="index">
@@ -102,7 +102,7 @@ export default {
 	data() {
 		return {
 			recList: {},
-			navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '畅销资料', img: '/static/index3.png' }],
+			navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '精选资料', img: '/static/index3.png' }],
 			bannerList: [],
 			imgUrl: '',
 			userInfoButtonShow: true,
@@ -127,7 +127,7 @@ export default {
 		this.banner();
 		// 课程推荐
 		this.course();
-		//畅销资料
+		//精选资料
 		this.sellData();
 		//畅销图书
 		this.books();
@@ -217,7 +217,7 @@ export default {
 				url: `/pages/indexCourse?id=${e}`
 			});
 		},
-		// 畅销资料
+		// 精选资料
 		sellData() {
 			uni.showLoading({
 				title: '加载中...'

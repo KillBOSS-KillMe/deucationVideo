@@ -327,8 +327,8 @@ var _helper = _interopRequireDefault(__webpack_require__(/*! ../componets/helper
 //
 //
 //
-var app = getApp();var logoDom = function logoDom() {__webpack_require__.e(/*! require.ensure | componets/logoDom */ "componets/logoDom").then((function () {return resolve(__webpack_require__(/*! @/componets/logoDom.vue */ 326));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 309));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate, logoDom: logoDom }, data: function data() {return { recList: {}, navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '畅销资料', img: '/static/index3.png' }], bannerList: [], imgUrl: '', userInfoButtonShow: true, userInfo: {}, sellList: [], bookList: [], authorizationButton: null, dataCount: 0, bookCount: 0, curriculaCount: 0 };}, onLoad: function onLoad() {this.userInfo = app.globalData.userInfo;this.imgUrl = _helper.default.imgUrl;this.onGetUserInfo();uni.showShareMenu({ withShareTicket: true });}, onShow: function onShow() {this.banner(); // 课程推荐
-    this.course(); //畅销资料
+var app = getApp();var logoDom = function logoDom() {__webpack_require__.e(/*! require.ensure | componets/logoDom */ "componets/logoDom").then((function () {return resolve(__webpack_require__(/*! @/componets/logoDom.vue */ 309));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 316));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate, logoDom: logoDom }, data: function data() {return { recList: {}, navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '精选资料', img: '/static/index3.png' }], bannerList: [], imgUrl: '', userInfoButtonShow: true, userInfo: {}, sellList: [], bookList: [], authorizationButton: null, dataCount: 0, bookCount: 0, curriculaCount: 0 };}, onLoad: function onLoad() {this.userInfo = app.globalData.userInfo;this.imgUrl = _helper.default.imgUrl;this.onGetUserInfo();uni.showShareMenu({ withShareTicket: true });}, onShow: function onShow() {this.banner(); // 课程推荐
+    this.course(); //精选资料
     this.sellData(); //畅销图书
     this.books();}, methods: { bannerClick: function bannerClick(e) {e = e.currentTarget.dataset;var id = e.id;var type = e.type;var goodId = e.goodsid;if (type == 1) {// 课程
         uni.navigateTo({ url: "/pages/indexCourse?id=".concat(goodId) });} else if (type == 2) {// 资料
@@ -355,7 +355,7 @@ var app = getApp();var logoDom = function logoDom() {__webpack_require__.e(/*! r
         url: "/pages/indexCourse?id=".concat(e) });
 
     },
-    // 畅销资料
+    // 精选资料
     sellData: function sellData() {var _this3 = this;
       uni.showLoading({
         title: '加载中...' });

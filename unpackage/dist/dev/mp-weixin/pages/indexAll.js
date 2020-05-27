@@ -190,7 +190,7 @@ var _mescrollMixins = _interopRequireDefault(__webpack_require__(/*! ../componet
 //
 //
 //
-var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 309));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { mixins: [_mescrollMixins.default], // 使用mixin
+var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 316));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { mixins: [_mescrollMixins.default], // 使用mixin
   components: { uniRate: uniRate }, data: function data() {return { Inv: -1, type: '', imgUrl: '', downOption: { auto: true //是否在初始化后,自动执行downCallback; 默认true
       }, upOption: { page: { num: 0, // 当前页码,默认0,回调之前会加1,即callback(page)会从1开始
           size: 10 // 每页数据的数量,默认10
@@ -201,14 +201,14 @@ var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! r
     this.mode = option.mode;
 
     if (this.mode == 'sellData') {
-      // 畅销资料
+      // 精选资料
       this.url = 'index/data';
-      navTitle = '畅销资料';
+      navTitle = '精选资料';
       // this.getSellData();
     } else if (this.mode == '绘本图书') {
       navTitle = '绘本图书';
       this.url = 'index/book';
-    } else if (this.mode == '畅销资料') {
+    } else if (this.mode == '精选资料') {
       navTitle = '全部资料';
     }
     uni.setNavigationBarTitle({
@@ -216,7 +216,7 @@ var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! r
 
     if (this.type != '更多') {
       var navUrl = '';
-      if (this.mode == '畅销资料') {
+      if (this.mode == '精选资料') {
         navUrl = 'class/data_classify';
         this.listUrl = 'class/getDataList';
       } else if (this.mode == '绘本图书') {
@@ -302,7 +302,7 @@ var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! r
         } });
 
     },
-    // 畅销资料和精选图书
+    // 精选资料和推荐图书
     getSellData: function getSellData(page) {var _this3 = this;
       var pageNum = page.num; // 页码, 默认从1开始
       var pageSize = page.size; // 页长, 默认每页10条

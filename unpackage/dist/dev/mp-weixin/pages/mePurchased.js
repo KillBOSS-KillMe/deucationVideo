@@ -164,7 +164,7 @@ var _mescrollMixins = _interopRequireDefault(__webpack_require__(/*! ../componet
 //
 //
 //
-var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 309));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate }, mixins: [_mescrollMixins.default], // 使用mixin
+var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 316));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { uniRate: uniRate }, mixins: [_mescrollMixins.default], // 使用mixin
   data: function data() {return { list: [], imgUrl: '', downOption: { auto: true //是否在初始化后,自动执行downCallback; 默认true
       }, upOption: { page: { num: 0, // 当前页码,默认0,回调之前会加1,即callback(page)会从1开始
           size: 20 // 每页数据的数量,默认10

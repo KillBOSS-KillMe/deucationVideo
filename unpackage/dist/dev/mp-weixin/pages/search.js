@@ -181,7 +181,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
-var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 309));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+var app = getApp();var uniRate = function uniRate() {__webpack_require__.e(/*! require.ensure | componets/wyc-rate/uni-rate */ "componets/wyc-rate/uni-rate").then((function () {return resolve(__webpack_require__(/*! @/componets/wyc-rate/uni-rate.vue */ 316));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 {
   components: { uniRate: uniRate },

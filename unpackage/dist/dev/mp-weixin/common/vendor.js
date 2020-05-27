@@ -8673,7 +8673,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 321:
+/***/ 328:
 /*!***************************************************************!*\
   !*** D:/workspan/educationVideo/componets/libs/CssHandler.js ***!
   \***************************************************************/
@@ -8686,7 +8686,7 @@ function _classCallCheck(instance, Constructor) {if (!(instance instanceof Const
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 docs：https://jin-yufeng.github.io/Parser
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 author：JinYufeng
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
-var config = __webpack_require__(/*! ./config.js */ 322);var
+var config = __webpack_require__(/*! ./config.js */ 329);var
 CssHandler = /*#__PURE__*/function () {"use strict";
   function CssHandler() {var tagStyle = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};_classCallCheck(this, CssHandler);
     this.styles = Object.assign({}, tagStyle);
@@ -8799,7 +8799,7 @@ CssParser = /*#__PURE__*/function () {"use strict";
 
 /***/ }),
 
-/***/ 322:
+/***/ 329:
 /*!***********************************************************!*\
   !*** D:/workspan/educationVideo/componets/libs/config.js ***!
   \***********************************************************/
@@ -9019,7 +9019,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 323:
+/***/ 330:
 /*!*****************************************************************!*\
   !*** D:/workspan/educationVideo/componets/libs/MpHtmlParser.js ***!
   \*****************************************************************/
@@ -9032,9 +9032,9 @@ function _classCallCheck(instance, Constructor) {if (!(instance instanceof Const
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 docs：https://jin-yufeng.github.io/Parser
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 author：JinYufeng
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
-var config = __webpack_require__(/*! ./config.js */ 322);
+var config = __webpack_require__(/*! ./config.js */ 329);
 var blankChar = config.blankChar;
-var CssHandler = __webpack_require__(/*! ./CssHandler.js */ 321);
+var CssHandler = __webpack_require__(/*! ./CssHandler.js */ 328);
 var emoji; // emoji 补丁包 https://jin-yufeng.github.io/Parser/#/instructions?id=emoji
 var MpHtmlParser = /*#__PURE__*/function () {"use strict";
   function MpHtmlParser(data) {var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};_classCallCheck(this, MpHtmlParser);

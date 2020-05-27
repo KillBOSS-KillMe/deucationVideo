@@ -69,14 +69,14 @@ export default {
 		this.mode = option.mode
     
 		if (this.mode == 'sellData') {
-			// 畅销资料
+			// 精选资料
 			this.url = 'index/data'
-			navTitle = '畅销资料'
+			navTitle = '精选资料'
 			// this.getSellData();
 		} else if (this.mode == '绘本图书') {
 			navTitle = '绘本图书'
 			this.url = 'index/book'
-		}else if(this.mode == '畅销资料'){
+		}else if(this.mode == '精选资料'){
 			navTitle = '全部资料'
 		}
 		uni.setNavigationBarTitle({
@@ -84,7 +84,7 @@ export default {
 		})
 		if(this.type != '更多'){
 			let navUrl = ''
-			if(this.mode == '畅销资料'){
+			if(this.mode == '精选资料'){
 				navUrl = 'class/data_classify'
 				this.listUrl = 'class/getDataList'
 			}else if(this.mode == '绘本图书'){
@@ -170,7 +170,7 @@ export default {
 				}
 			});
 		},
-		// 畅销资料和精选图书
+		// 精选资料和推荐图书
 		getSellData(page) {
 			let pageNum = page.num; // 页码, 默认从1开始
 			let pageSize = page.size; // 页长, 默认每页10条

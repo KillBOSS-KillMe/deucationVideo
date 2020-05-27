@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var parser = function parser() {Promise.all(/*! require.ensure | componets/jyf-parser */[__webpack_require__.e("common/vendor"), __webpack_require__.e("componets/jyf-parser")]).then((function () {return resolve(__webpack_require__(/*! ../componets/jyf-parser.vue */ 316));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var parser = function parser() {Promise.all(/*! require.ensure | componets/jyf-parser */[__webpack_require__.e("common/vendor"), __webpack_require__.e("componets/jyf-parser")]).then((function () {return resolve(__webpack_require__(/*! ../componets/jyf-parser.vue */ 323));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
 
 
 

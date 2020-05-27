@@ -102,7 +102,7 @@ export default {
 	data() {
 		return {
 			recList: {},
-			navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '精选资料', img: '/static/index3.png' }],
+			navList: [{ title: '发现精彩', img: '/static/index1.png' }, { title: '绘本图书', img: '/static/index2.png' }, { title: '畅销资料', img: '/static/index3.png' }],
 			bannerList: [],
 			imgUrl: '',
 			userInfoButtonShow: true,
@@ -178,6 +178,7 @@ export default {
 		},
 		// 导航
 		getNav(e) {
+      console.log(e)
 			if (e == '发现精彩') {
 				uni.navigateTo({
 					url: `/pages/find`

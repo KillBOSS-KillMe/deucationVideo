@@ -78,14 +78,14 @@
 			console.log(option)
 			let headTitle = option.type
 			let navH = ''
-			if(headTitle == '推荐图书' || headTitle == 'books'){
+			if(headTitle == '推荐图书' || headTitle == '绘本图书' || headTitle == 'books' || headTitle == '3'){
 				navH = '图书详情'
 				this.url = 'details/book'
 				this.dataT = {
 					book_id: option.id
 				}
 				this.goPay = 'books'
-			}else{
+			} else if (headTitle == '畅销资料' || headTitle == 'data' || headTitle == 'sellData' || headTitle == '2') {
 				navH = '资料详情'
 				this.url = 'details/data'
 				this.dataT = {

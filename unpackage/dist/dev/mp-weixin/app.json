@@ -72,5 +72,6 @@
   "usingComponents": {
     "mescroll-body": "/componets/mescroll-uni/mescroll-body",
     "mescroll-uni": "/componets/mescroll-uni/mescroll-uni"
-  }
+  },
+  "sitemapLocation": "sitemap47.json"
 }
